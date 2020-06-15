@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B9C1E8224971D8E00FD519E /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		4B9C1E8324971F0E00FD519E /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		98C85B96E105A5F464FA6842 /* Pods_FastLaneBuildConfigTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLaneBuildConfigTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39BF0694F64A52C18F9EB00 /* Pods-FastLaneBuildConfigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLaneBuildConfigTest.release.xcconfig"; path = "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.release.xcconfig"; sourceTree = "<group>"; };
 		DB19C7C1249715DA004E079E /* FastLaneBuildConfigTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLaneBuildConfigTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +50,6 @@
 				DFC8ED9DEF67C3132634D58D /* Pods-FastLaneBuildConfigTest.debug.xcconfig */,
 				B39BF0694F64A52C18F9EB00 /* Pods-FastLaneBuildConfigTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +59,15 @@
 				98C85B96E105A5F464FA6842 /* Pods_FastLaneBuildConfigTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B9C1E8124971D6600FD519E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C1E8224971D8E00FD519E /* Dev.xcconfig */,
+				4B9C1E8324971F0E00FD519E /* Alpha.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		DB19C7B8249715DA004E079E = {
@@ -81,6 +91,7 @@
 		DB19C7C3249715DA004E079E /* FastLaneBuildConfigTest */ = {
 			isa = PBXGroup;
 			children = (
+				4B9C1E8124971D6600FD519E /* Config */,
 				DB19C7C4249715DA004E079E /* AppDelegate.swift */,
 				DB19C7C6249715DA004E079E /* SceneDelegate.swift */,
 				DB19C7C8249715DA004E079E /* ViewController.swift */,
