@@ -17,10 +17,43 @@ default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
-  lane :custom_lane do
-    identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
-    print(identifier)
-    identifier2 = get_info_plist_value(path: "./FastLaneBuildConfigTest/Info.plist", key: "Shared_URL")
-    build()
+  lane :alpha_lane do
+    build_app(
+      workspace: "FastLaneBuildConfigTest.xcworkspace",
+      configuration: "Alpha",
+      scheme: "FastLaneBuildConfigTest copy",
+      silent: true,
+      clean: true,
+      output_name: "my-app.ipa"
+    )
   end
 end
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :dev_lane do
+    build_app(
+      workspace: "FastLaneBuildConfigTest.xcworkspace",
+      configuration: "Dev",
+      scheme: "FastLaneBuildConfigTest copy", ## DEV 환경 예시
+      silent: true,
+      clean: true,
+      output_name: "my-app.ipa"
+    )
+  end
+end
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :beta_lane do
+    build_app(
+      workspace: "FastLaneBuildConfigTest.xcworkspace",
+      configuration: "Beta",
+      scheme: "FastLaneBuildConfigTest",
+      silent: true,
+      clean: true,
+      output_name: "my-app.ipa" 
+    )
+  end
+end
+

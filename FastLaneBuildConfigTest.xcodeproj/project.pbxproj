@@ -14,6 +14,13 @@
 		DB19C7CC249715DA004E079E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CA249715DA004E079E /* Main.storyboard */; };
 		DB19C7CE249715DB004E079E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CD249715DB004E079E /* Assets.xcassets */; };
 		DB19C7D1249715DB004E079E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CF249715DB004E079E /* LaunchScreen.storyboard */; };
+		DB19C7DC24974E71004E079E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19C7C8249715DA004E079E /* ViewController.swift */; };
+		DB19C7DD24974E71004E079E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19C7C4249715DA004E079E /* AppDelegate.swift */; };
+		DB19C7DE24974E71004E079E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19C7C6249715DA004E079E /* SceneDelegate.swift */; };
+		DB19C7E024974E71004E079E /* Pods_FastLaneBuildConfigTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C85B96E105A5F464FA6842 /* Pods_FastLaneBuildConfigTest.framework */; };
+		DB19C7E224974E71004E079E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CF249715DB004E079E /* LaunchScreen.storyboard */; };
+		DB19C7E324974E71004E079E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CD249715DB004E079E /* Assets.xcassets */; };
+		DB19C7E424974E71004E079E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19C7CA249715DA004E079E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,8 @@
 		DB19C7CD249715DB004E079E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB19C7D0249715DB004E079E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB19C7D2249715DB004E079E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB19C7EB24974E71004E079E /* FastLaneBuildConfigTest Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastLaneBuildConfigTest Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB19C7EC24974E72004E079E /* FastLaneBuildConfigTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FastLaneBuildConfigTest copy-Info.plist"; path = "/Users/hmjeong/fastLaneBuildConfigTest/fastLaneBuildConfigTest/FastLaneBuildConfigTest copy-Info.plist"; sourceTree = "<absolute>"; };
 		DFC8ED9DEF67C3132634D58D /* Pods-FastLaneBuildConfigTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLaneBuildConfigTest.debug.xcconfig"; path = "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +53,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				94CF3930C36EA577712C7BA7 /* Pods_FastLaneBuildConfigTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB19C7DF24974E71004E079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19C7E024974E71004E079E /* Pods_FastLaneBuildConfigTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,7 @@
 				DB19C7C2249715DA004E079E /* Products */,
 				078302E7F0E5D3227B45E6A4 /* Pods */,
 				3DDFA392B21B8AE81A215B00 /* Frameworks */,
+				DB19C7EC24974E72004E079E /* FastLaneBuildConfigTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				DB19C7C1249715DA004E079E /* FastLaneBuildConfigTest.app */,
+				DB19C7EB24974E71004E079E /* FastLaneBuildConfigTest Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +156,25 @@
 			productReference = DB19C7C1249715DA004E079E /* FastLaneBuildConfigTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DB19C7D924974E71004E079E /* FastLaneBuildConfigTest Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB19C7E624974E71004E079E /* Build configuration list for PBXNativeTarget "FastLaneBuildConfigTest Dev" */;
+			buildPhases = (
+				DB19C7DA24974E71004E079E /* [CP] Check Pods Manifest.lock */,
+				DB19C7DB24974E71004E079E /* Sources */,
+				DB19C7DF24974E71004E079E /* Frameworks */,
+				DB19C7E124974E71004E079E /* Resources */,
+				DB19C7E524974E71004E079E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FastLaneBuildConfigTest Dev";
+			productName = FastLaneBuildConfigTest;
+			productReference = DB19C7EB24974E71004E079E /* FastLaneBuildConfigTest Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				DB19C7C0249715DA004E079E /* FastLaneBuildConfigTest */,
+				DB19C7D924974E71004E079E /* FastLaneBuildConfigTest Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +217,16 @@
 				DB19C7D1249715DB004E079E /* LaunchScreen.storyboard in Resources */,
 				DB19C7CE249715DB004E079E /* Assets.xcassets in Resources */,
 				DB19C7CC249715DA004E079E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB19C7E124974E71004E079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19C7E224974E71004E079E /* LaunchScreen.storyboard in Resources */,
+				DB19C7E324974E71004E079E /* Assets.xcassets in Resources */,
+				DB19C7E424974E71004E079E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +272,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DB19C7DA24974E71004E079E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastLaneBuildConfigTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB19C7E524974E71004E079E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,6 +321,16 @@
 				DB19C7C9249715DA004E079E /* ViewController.swift in Sources */,
 				DB19C7C5249715DA004E079E /* AppDelegate.swift in Sources */,
 				DB19C7C7249715DA004E079E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB19C7DB24974E71004E079E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19C7DC24974E71004E079E /* ViewController.swift in Sources */,
+				DB19C7DD24974E71004E079E /* AppDelegate.swift in Sources */,
+				DB19C7DE24974E71004E079E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +674,86 @@
 			};
 			name = Release;
 		};
+		DB19C7E724974E71004E079E /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9C1E8224971D8E00FD519E /* Dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FastLaneBuildConfigTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamin.FastLaneBuildConfigTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		DB19C7E824974E71004E079E /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9C1E8324971F0E00FD519E /* Alpha.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FastLaneBuildConfigTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamin.FastLaneBuildConfigTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		DB19C7E924974E71004E079E /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9C1E8624972C5500FD519E /* Beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FastLaneBuildConfigTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamin.FastLaneBuildConfigTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		DB19C7EA24974E71004E079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9C1E8724972C6300FD519E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FastLaneBuildConfigTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamin.FastLaneBuildConfigTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,6 +775,17 @@
 				4B9C1E8524972C2700FD519E /* Alpha */,
 				4B9C1E8B24972F0C00FD519E /* Beta */,
 				DB19C7D7249715DB004E079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB19C7E624974E71004E079E /* Build configuration list for PBXNativeTarget "FastLaneBuildConfigTest Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB19C7E724974E71004E079E /* Dev */,
+				DB19C7E824974E71004E079E /* Alpha */,
+				DB19C7E924974E71004E079E /* Beta */,
+				DB19C7EA24974E71004E079E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

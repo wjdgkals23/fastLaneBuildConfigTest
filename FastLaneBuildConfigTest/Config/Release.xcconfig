@@ -11,4 +11,4 @@
 
 #include "Pods/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.release.xcconfig"
 
-shard_url = "Release"
+shared_url = "Release"

@@ -11,4 +11,4 @@
 
 #include "Pods/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.beta.xcconfig"
 
-shard_url = "Beta"
+shared_url = "Beta"

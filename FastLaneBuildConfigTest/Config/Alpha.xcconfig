@@ -11,4 +11,4 @@
 
 #include "Pods/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.alpha.xcconfig"
 
-shard_url = "Alpha"
+shared_url = "Alpha"

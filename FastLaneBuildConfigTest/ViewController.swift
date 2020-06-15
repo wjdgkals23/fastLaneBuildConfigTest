@@ -16,11 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
         let url = Bundle.main.object(forInfoDictionaryKey: "Shared_URL") as? String
         
-        textLabel.text = "url"
-        self.view.addSubview(textLabel)
-        print(url)
+        let alert = UIAlertController(title: "Your Title", message: url, preferredStyle: UIAlertController.Style.alert)
+        
+        self.present(alert, animated: true, completion: nil)
     }
     
 

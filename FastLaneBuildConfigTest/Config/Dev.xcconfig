@@ -12,4 +12,4 @@
 #include "Pods/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.dev.xcconfig"
 #include "./Shared"
 
-shard_url = "DEV"
+shared_url = 123123
