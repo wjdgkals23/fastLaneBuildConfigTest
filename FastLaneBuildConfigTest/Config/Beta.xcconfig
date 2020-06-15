@@ -9,4 +9,4 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-#include "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.release.xcconfig"
+#include "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.beta.xcconfig"
