@@ -60,5 +60,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>Shared_URL</key>
+	<string>$(shared_url)</string>
 </dict>
 </plist>

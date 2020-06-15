@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let textLabel = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let url = Bundle.main.object(forInfoDictionaryKey: "Shared_URL") as? String
+        
+        textLabel.text = "url"
+        self.view.addSubview(textLabel)
+        print(url)
     }
-
+    
 
 }
 

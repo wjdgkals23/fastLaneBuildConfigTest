@@ -18,6 +18,9 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
+    identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+    print(identifier)
+    identifier2 = get_info_plist_value(path: "./FastLaneBuildConfigTest/Info.plist", key: "Shared_URL")
+    build()
   end
 end
