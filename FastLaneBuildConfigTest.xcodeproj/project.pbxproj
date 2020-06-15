@@ -22,6 +22,7 @@
 		4B9C1E8324971F0E00FD519E /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		4B9C1E8624972C5500FD519E /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		4B9C1E8724972C6300FD519E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		4B9C1E8C249738A800FD519E /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		4BFD9C6D989E6DA68E506F7B /* Pods-FastLaneBuildConfigTest.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLaneBuildConfigTest.beta.xcconfig"; path = "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.beta.xcconfig"; sourceTree = "<group>"; };
 		98C85B96E105A5F464FA6842 /* Pods_FastLaneBuildConfigTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLaneBuildConfigTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39BF0694F64A52C18F9EB00 /* Pods-FastLaneBuildConfigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLaneBuildConfigTest.release.xcconfig"; path = "Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				4B9C1E8324971F0E00FD519E /* Alpha.xcconfig */,
 				4B9C1E8624972C5500FD519E /* Beta.xcconfig */,
 				4B9C1E8724972C6300FD519E /* Release.xcconfig */,
+				4B9C1E8C249738A800FD519E /* Shared.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";

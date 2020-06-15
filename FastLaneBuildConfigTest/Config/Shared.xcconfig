@@ -1,5 +1,5 @@
 //
-//  Dev.xcconfig
+//  Shared.xcconfig
 //  FastLaneBuildConfigTest
 //
 //  Created by easygun on 2020/06/15.
@@ -9,7 +9,4 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-#include "Pods/Target Support Files/Pods-FastLaneBuildConfigTest/Pods-FastLaneBuildConfigTest.dev.xcconfig"
-#include "./Shared"
-
-shard_url = URL
+URL = "URLString"
